@@ -13,6 +13,12 @@ From a command line:
 python3 NumberInsightAllCliCsv.py -k <your_api_key> -s <your_api_secret> -c phone -i <input_file.csv> -o <output_file> -t <type> -n <y/n>
 ```
 
+On some occasion you might want to force the country, use the -c (or -country) option followed by the country in ISO 2 format
+
+```python
+python3 NumberInsightAllCliCsv.py -k <your_api_key> -s <your_api_secret> -c phone -i <input_file.csv> -o <output_file> -t <type> -n <yes/no> -c <country_iso2>
+```
+
 Where:
 
 - `your_api_key` and `api_secret` are your api key and secret available in the Nexmo dashboard (Settings)
@@ -20,7 +26,8 @@ Where:
 - `input_file.csv` is your CSV file containing the list of phone numbers
 - `output_file` will be the file containing the results, in CSV format
 - `type` is the level of the Number Insight API (basic, standard, advanced)
-- `y/n` choose yes or no if you want to retrieve the user lastname and firstname (cnam). US only
+- `yes/no` choose yes or no if you want to retrieve the user lastname and firstname (cnam). US only
+- `country_iso2` 
 
 API documentation: https://developer.nexmo.com/number-insight/overview
 
