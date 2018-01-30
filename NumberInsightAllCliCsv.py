@@ -260,10 +260,7 @@ def niadvanced(api_key, api_secret, column_header, infile, outfile, cnam, countr
                     'api_key':api_key,
                     'api_secret':api_secret,
                     'number':row[column_header],
-                    'callback':'http://nexmo.pukkafish.com/webhook/ni/ni_async_cnam_cb.php?filename=' + str(outfile_csv),
-                    #'callback':'https://requestb.in/1dgx4so1',
-                    'force-hlr-handler':'infobip'
-                    #'force-hlr-handler' : 'vertex'
+                    'callback':'<your_server_url>/ni_async_cnam_cb.php?filename=' + str(outfile_csv)
                 }
 
                 if country != 'none':
