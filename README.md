@@ -1,11 +1,13 @@
 # py-nexmo-number-insight
 Return number's phone information based on Nexmo's Number Insight APIs (basic, standard, advanced, advanced async).
 
-Pre-requisites
+# Pre-requisites
 - Python 3
 - Requests module `pip install requests`
 
-From a command line, run:
+# Run it
+
+From a command line:
 
 ```python
 python3 NumberInsightAllCliCsv.py -k <your_api_key> -s <your_api_secret> -c phone -i <input_file.csv> -o <output_file> -t <type> -n <yes/no>
