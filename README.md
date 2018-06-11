@@ -13,7 +13,7 @@ From a command line:
 python3 NumberInsightAllCliCsv.py -k <your_api_key> -s <your_api_secret> -c phone -i <input_file.csv> -o <output_file> -t <type> -n <y/n>
 ```
 
-On some occasion you might want to force the country, use the -c (or -country) option followed by the country in ISO 2 format
+On some occasion you might want to force the country, use the -y (or -country) option followed by the country in ISO 2 format
 
 ```python
 python3 NumberInsightAllCliCsv.py -k <your_api_key> -s <your_api_secret> -c phone -i <input_file.csv> -o <output_file> -t <type> -n <yes/no> -y <country_iso2>
