@@ -4,6 +4,7 @@ Return number's phone information based on Nexmo's Number Insight APIs (basic, s
 # Pre-requisites
 - Python 3
 - Requests module `pip install requests`
+- Toolbelt module `pip install requests-toolbelt`
 
 # Run it
 
@@ -27,7 +28,7 @@ Where:
 - `output_file` will be the file containing the results, in CSV format
 - `type` is the level of the Number Insight API (basic, standard, advanced)
 - `yes/no` choose yes or no if you want to retrieve the user lastname and firstname (cnam). US only
-- `country_iso2` 
+- `country_iso2` the country code in alpha 2 format - https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 API documentation: https://developer.nexmo.com/number-insight/overview
 
